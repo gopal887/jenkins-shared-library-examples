@@ -1,5 +1,5 @@
 def call(String saywhat = "nothing") {
-    if (saywhat == "hi") {
+    test (saywhat == "hi") {
         script {
             sh """
                 echo Hi Alice
